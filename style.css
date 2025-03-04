@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+.hienthi {
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  height: 2000px;
+  padding: 10px 10px;
+  margin: 0 auto; /* căn giữa */
+}
+#hienthi1 {
+  /* tiêu đề */
+  width: 100%;
+  height: 120px;
+  background-color: rgb(61, 66, 219);
+  margin-top: 5px;
+  display: flex;
+}
+#hienthi1 > h1 {
+  /* thẻ h1 */
+  margin: 20px 30px 30px 50px;
+  font-size: 80px;
+  color: white;
+}
+#hienthi1 > p {
+  /* thứ 3 ngày... */
+  margin: 75px 0px 25px -10px;
+  color: white;
+  font-size: 17px;
+}
+.hienthi3 {
+  /* thanh công cụ */
+  background-color: black;
+  width: 100%;
+  height: 90px;
+  margin-top: 15px;
+  border-radius: ;
+  white-space: nowrap;
+}
+#hienthi4 {
+  /* điều chỉnh thanh công cụ */
+  display: flex;
+  gap: 10px; /* Khoảng cách giữa các thẻ <p> */
+  flex-direction: row; /* Dàn hàng ngang */
+  gap: 10px;
+}
+
+#hienthi4 p {
+  /* điều chỉnh thanh công cụ */
+  /* margin: 33px; Loại bỏ margin mặc định của <p> */
+  padding: 0;
+  color: white; /* Loại bỏ padding mặc định của <p> */
+  font-weight: bold;
+  font-size: 30px;
+  margin: 30px 0px 0px 30px ;
+}
+.hienthi5 {
+  /* link tiêu đề */
+  background-color: white;
+  width: 250px;
+  height: 400px;
+  margin-top: 20px;
+}
+#hienthi6 {
+  /* link thanh nội dung */
+  background-color: blue;
+  width: 100%;
+  height: 50px;
+  border: 1;
+}
+#hienthi6 > h1 {
+  /* thanh nội dung */
+  margin: 20px 20px 20px 20px;
+  padding-top: 10px;
+  color: white;
+}
+#hienthi6 > a {
+  /* thanh nội dung */
+  display: flex;
+  flex-wrap: wrap;
+  color: blue;
+  line-height: 2.5;
+  font-size: 15px;
+  margin: 0px 50px 0px 30px;
+  font-size: 18px;
+  /* text-decoration: none; */
+  /* bỏ gạch dưới */
+}
+.hienthi7 {
+  width: 880px;
+  height: 1000px;
+  background-color: ;
+  float: right;
+  padding: 10px;
+}
+#chacuaanh {
+  /* anh + text */
+  display: flex;
+  gap: 10px;
+}
+.anhh8 {
+  /* cỡ ảnh */
+  width: 400px;
+  height: 400px;
+}
+#hienthi8 > h1 {
+  /* thanh tiêu đề bài viết bên phải */
+  font-size: 50px;
+  margin-bottom: -5px;
+  margin-top: -15px;
+}
+.hienthi7{
+  background-color: #ebebeb;
+  height: 100%;
+}
